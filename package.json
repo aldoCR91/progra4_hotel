@@ -1,0 +1,15 @@
+{
+  "name": "progra4_hotel",
+  "version": "1.0.0",
+  "description": "Página web con tema de hotel para la clase de progra 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
