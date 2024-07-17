@@ -105,7 +105,7 @@ body {
 }
 
 .home {
-  grid-column: 6 / 7;
+  grid-column: 8 / 9;
 }
 
 .nav-item {
@@ -160,4 +160,54 @@ body {
   color: white;
   font-weight: bold;
   margin-bottom: 20%;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.iz {
+  height: 25rem;
+  background-color: aqua;
+}
+
+.der {
+  height: 25rem;
+  background-color: blueviolet;
+}
+
+.header {
+  text-align: center;
+}
+
+.logo-cuc {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cuc-title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.carrera-title {
+  margin-bottom: 30px;
+}
+
+.curso-title {
+  margin-bottom: 30px;
+}
+
+.proyecto-title {
+  margin-bottom: 30px;
+}
+
+.estudiante {
+  margin-bottom: 30px;
+}
+
+.ano {
+  margin-bottom: 30px;
 }
