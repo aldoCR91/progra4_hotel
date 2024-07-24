@@ -1,0 +1,48 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Hotel - Reistro usuario</title>
+</head>
+<body style="display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f0f0f0;">
+
+  <form action="/registrar_usuario" method="POST" style="background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+      <h2 style="text-align: center; color: #333;">Registro de Usuario</h2>
+      
+      <div style="margin-bottom: 15px;">
+          <label for="fullname" style="display: block; margin-bottom: 5px; color: #555;">Nombre Completo</label>
+          <input type="text" id="fullname" name="fullname" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+      </div>
+      
+      <div style="margin-bottom: 15px;">
+          <label for="email" style="display: block; margin-bottom: 5px; color: #555;">Correo Electrónico</label>
+          <input type="email" id="email" name="email" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+      </div>
+      
+      <div style="margin-bottom: 15px;">
+          <label for="username" style="display: block; margin-bottom: 5px; color: #555;">Usuario</label>
+          <input type="text" id="username" name="username" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+      </div>
+      
+      <div style="margin-bottom: 15px;">
+          <label for="password" style="display: block; margin-bottom: 5px; color: #555;">Contraseña</label>
+          <input type="password" id="password" name="password" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+      </div>
+      
+      <div style="margin-bottom: 15px;">
+          <label for="confirm_password" style="display: block; margin-bottom: 5px; color: #555;">Confirmar Contraseña</label>
+          <input type="password" id="confirm_password" name="confirm_password" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+      </div>
+      
+      <button type="submit" style="width: 100%; padding: 10px; background-color: #007BFF; color: #fff; border: none; border-radius: 4px; cursor: pointer;">Registrarse</button>
+  </form>
+
+</body>
+</html>
